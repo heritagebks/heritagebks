@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Heritage Books",
-    "currentPage": "faqs.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -37,7 +37,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
     "siteFonts": [],
-    "favicon": "",
+    "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
     "uniqCompNum": 39,
     "versionPublish": "4.8.10",
