@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Heritage Books",
-    "currentPage": "holidays.html",
+    "currentPage": "books.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -36,20 +36,34 @@
     },
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.8.10",
-    "siteFonts": [],
+    "siteFonts": [
+      {
+        "css": "'Rubik', sans-serif",
+        "name": "Rubik",
+        "url": "https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i"
+      }
+    ],
     "favicon": "@PROJECT_PATH@/assets/images/favicon-32x32-32x32.png",
     "noImageResize": "",
-    "uniqCompNum": 39,
-    "versionPublish": "4.8.10",
+    "uniqCompNum": 41,
+    "versionPublish": "4.12.0",
     "screenshot": "screenshot.png",
-    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142466232-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-142466232-1');\r\n</script>\r\n"
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-142466232-1\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'UA-142466232-1');\r\n</script>\r\n",
+    "robotsSwitcher": true,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
+    "sitemapSwitcher": true,
+    "siteUrl": "https://www.heritagebks.com/",
+    "sitemapSwitcherAuto": "on",
+    "imageResize": true,
+    "cookiesAlert": false,
+    "gdpr": false
   },
   "pages": {
     "index.html": {
       "settings": {
         "main": true,
-        "title": "Home | Heritage Books",
-        "meta_descr": "",
+        "title": "Heritage Books | Southampton, MA",
+        "meta_descr": "Local Western Massachusetts used books and ephemera bookstore located in Southampton, MA, on Route 10 between Westfield and Easthampton at the old town library built in 1904.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -867,7 +881,7 @@
     },
     "insidethebookstore.html": {
       "settings": {
-        "meta_descr": "",
+        "meta_descr": "Read the Story of the restored folk-art ferris wheel and Circus Wagons. Bookshelves of non-fiction, fiction, collectibles, and gifts. Our friendly staff is always available to guide you to your areas of interests.",
         "title": "Inside the Bookstore | Heritage Books",
         "order": 3
       },
@@ -2742,7 +2756,7 @@
     },
     "contact.html": {
       "settings": {
-        "meta_descr": "Site Builder Description",
+        "meta_descr": "Follow us on Facebook and Twitter! Contact us by calling (413) 527-6200.",
         "title": "Contact Us | Heritage Books",
         "order": 4
       },
@@ -3321,7 +3335,7 @@
     },
     "faqs.html": {
       "settings": {
-        "meta_descr": "Frequently Asked Questions",
+        "meta_descr": "Frequently asked questions about the bookstore.",
         "title": "FAQs | Heritage Books",
         "order": 5
       },
@@ -3933,7 +3947,7 @@
     },
     "holidays.html": {
       "settings": {
-        "meta_descr": "Closed Days",
+        "meta_descr": "Take a look at the days we observe during the year by closing the bookstore.",
         "title": "Closed Days | Heritage Books",
         "order": 6
       },
